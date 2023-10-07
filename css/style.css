@@ -1,0 +1,108 @@
+* {
+    /* interresante criar toda vez que vai criar um site */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.Izau {
+    width: 180px;
+    border-radius: 60%;
+    /* o tanto que vai ser arredondado */
+    border: 7px solid white;
+    /* a borda da foto */
+    padding: 1px;
+
+}
+
+header {
+    background-color: blueviolet;
+    display: flex;
+    /*tecnica de estilização para posicionar elementos.*/
+    flex-direction: column;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 30px 14px;
+    /* espaçamento interno d elemento, primeiro px, cima e baixo, segundo lados, um so pra ambos*/
+
+}
+
+header nav ul li:hover {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.imagemcentral {
+    display: flex;
+    text-align: justify ;
+    
+
+
+
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    
+
+}
+.img2{
+    width: 120px;
+    border-radius: 70%;
+}
+
+
+.divft{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.git{
+    width: 90px;
+    display: flex;
+    padding: 5px;
+    
+
+}
+
+.link{
+    width: 90px;
+    display: flex;
+    padding: 5x;
+}
+
+.imagemcentral2 {
+    display: flex;
+    border-radius: 10%;
+    padding: 10px;
+    width: 480px;
+
+}
